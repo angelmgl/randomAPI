@@ -1,0 +1,30 @@
+{
+  "name": "randomAPI",
+  "version": "1.0.0",
+  "description": "Una práctica que consiste en una API Rest con NodeJS que devuelve un número random entre los parámetros especificados en la URL.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelmgl/randomAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelmgl/randomAPI/issues"
+  },
+  "homepage": "https://github.com/angelmgl/randomAPI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
